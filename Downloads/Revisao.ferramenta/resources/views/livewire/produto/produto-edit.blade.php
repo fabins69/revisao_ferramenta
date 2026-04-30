@@ -16,8 +16,8 @@
             <label for="qtd_minima" class="form-label">Qtd. Mínima</label>
             <input type="text" class="form-control" id="qtd_minima" wire:model='qtd_minima'>
         </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-            </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+        </div>
     </form>
 </div>
