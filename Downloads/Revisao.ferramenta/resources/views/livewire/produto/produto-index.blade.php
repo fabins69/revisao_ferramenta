@@ -33,9 +33,9 @@
                 <tr>
                     <th scope="row">{{ $p->id }}</th>
                     <td>{{ $p->nome }}</td>
-                    <td>{{ $p->valor }}</td>
+                    <td>R$: {{ $p->valor }}</td>
                     <td>{{ $p->qtd_estoque }}</td>
-                    <td>{{ $p->qtd_minima }}</td>
+                    <td>Min: {{ $p->qtd_minima }}</td>
                     <td>
                         <a href="{{ route('produto.edit', ['id' => $p->id]) }}" class="btn btn-sm btn-info">Editar</a>
 
