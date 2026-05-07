@@ -51,8 +51,8 @@
                          <div class="col-md-2">
                             <div class="mb-3">
                                 <label class="form-label">Quantidade</label>
-                                <input type="number" class="form-control" wire:model='quantidade_movimentada'>
-                                @error('quantidade_movimentada')
+                                <input type="number" class="form-control" wire:model='quantidade'>
+                                @error('quantidade')
                                     <span class="text-danger">{{$message}}</span>
                                 @enderror
                             </div>
